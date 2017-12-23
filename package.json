@@ -1,0 +1,14 @@
+{
+  "name": "bittrex-api",
+  "scripts": {
+    "start": "rimraf results && mkdirp results && node main.js"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.17.1",
+    "crypto-js": "^3.1.9-1",
+    "json2csv": "^3.11.5",
+    "mkdirp": "^0.5.1",
+    "rimraf": "^2.6.2"
+  }
+}
